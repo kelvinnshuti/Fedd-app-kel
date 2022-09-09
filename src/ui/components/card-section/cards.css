@@ -1,0 +1,19 @@
+.card-container {
+    /* position: absolußte; */
+    bottom: 50px;
+    width: 25%;
+    background-image: url(../../../assets/Rectangle\ 17.png);
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 16px;
+}
+.cars{
+    position: absolute;
+}
+
+    
+ .upper-btn {
+    background-color: #007f90;
+ }   
+
+
