@@ -191,14 +191,47 @@ ul{
 
   
 }
-.opposite {
-    transform: rotate(-90deg);
+
+.buttons-container{
+    position: relative;
+    width: 450px;
+    height: 300px
+}
+.button-item{
+    position: absolute;
+}
+.bottom-center{
+    bottom: 85px;
+    left: 48%;
+    transform: translateX(-50%);
+}
+.bottom-1{
+    transform: rotate(0deg);
+    bottom: 230px;
+    right: 170px;
+}
+.bottom-2{
+    transform: rotate(-10deg);
+    bottom: 40px;
+    left: 25px;
+}
+.bottom-3{
+    bottom: 170px;
+    left: 75%;
+    transform: translateX(-50%) rotate(9deg);
+}
+.bottom-4{
+    transform: rotate(-7deg);
+    bottom: 170px;
+    right: 300px;
+}
+.bottom-5{ 
+    transform: rotate(95deg);
     bottom: 0;
+    right: -14px;
 }
-.last{
-    transform: rotate(-80deg)
     
-}
+
 
 
 

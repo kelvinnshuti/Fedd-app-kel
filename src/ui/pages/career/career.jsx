@@ -8,6 +8,7 @@ import button2 from "../../../assets/button2.svg";
 import opposite from '../../../assets/Button4.svg';
 import group from '../../../assets/Group 3.svg';
 import last from '../../../assets/Group 4.svg';
+import reality from '../../../assets/Group 6.svg';
 
 
 function Career(){
@@ -42,11 +43,12 @@ function Career(){
                     <div className="imageq">
                         {/* <img className="logo2" src={logo2} alt="logo2.png" /> */}
                         <Link className="button-item bottom-center" to=""><img alt="" src={button1} /></Link>
-                        {/* <Link className="button-item bottom-1" to="/"><img alt="" src={button2} /></Link> */}
-                        <Link className="button-item bottom-2" to="#"><img alt="" src={button2} /></Link>
-                        <Link className="opposite" to="/"><img alt="" src={opposite} /></Link>
-                        <Link className="group" to="#"><img alt="" src={group} /></Link>
+                        <Link className="button-item bottom-1" to="/"><img alt="" src={button2} /></Link>
+                        <Link className="button-item bottom-2" to="#"><img alt="" src={opposite} /></Link>
+                        <Link className="button-item bottom-3" to="/"><img alt="" src={group} /></Link>
+                        <Link className="button-item bottom-4" to="#"><img alt="" src={reality} /></Link>
                         <Link className="last" to="#"><img alt="" src={last} /></Link>
+                        {/* <Link className="button-item bottom-4"to="#"><img alt="" src={reality} /></Link> */}
                     </div>
                     <div className="values">
                         <h1>OUR VALUES</h1>
