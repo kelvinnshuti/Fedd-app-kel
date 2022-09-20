@@ -2,24 +2,29 @@ import React from "react";
 import './career.css';
 import Logo from '../../../assets/logo.png';
 import {Link } from 'react-router-dom';
-// import CareerMainImg from '../../../assets/Rectangle 79.png';
-import logo2 from '../../../assets/logo2.png'
+// import logo2 from '../../../assets/logo2.png'
+import button1 from "../../../assets/button1.svg";
+import button2 from "../../../assets/button2.svg";
+import opposite from '../../../assets/Button4.svg';
+import group from '../../../assets/Group 3.svg';
+import last from '../../../assets/Group 4.svg';
+
 
 function Career(){
     return(
         <div className="career">
             <div className="career-first">
                 <div className="navbar1">
-                <div className="career-main-text">
-                    <h1>career at feedapp</h1>
-                    <p>
-                        Pharetra vel ac malesuada id quam sit. Arcu, dictum nulla varius justo, etiam elit donec ultricies non. Est.    
-                    </p>
-                    <div className="career-main-text-btns">
-                        <button className="apply">Apply</button>
-                        <button className="click-here">click here for feedapp oppenings</button>
+                    <div className="career-main-text">
+                        <h1>career at feedapp</h1>
+                        <p>
+                            Pharetra vel ac malesuada id quam sit. Arcu, dictum nulla varius justo, etiam elit donec ultricies non. Est.    
+                        </p>
+                        <div className="career-main-text-btns">
+                            <button className="apply">Apply</button>
+                            <button className="click-here">click here for feedapp oppenings</button>
+                        </div>
                     </div>
-                </div>
                 </div>
                 <div className="navbar2">
                     <div className="logo">
@@ -35,7 +40,13 @@ function Career(){
                 </div>
                 <div className="logo21">
                     <div className="imageq">
-                        <img className="logo2" src={logo2} alt="logo2.png" />
+                        {/* <img className="logo2" src={logo2} alt="logo2.png" /> */}
+                        <Link className="button-item bottom-center" to=""><img alt="" src={button1} /></Link>
+                        {/* <Link className="button-item bottom-1" to="/"><img alt="" src={button2} /></Link> */}
+                        <Link className="button-item bottom-2" to="#"><img alt="" src={button2} /></Link>
+                        <Link className="opposite" to="/"><img alt="" src={opposite} /></Link>
+                        <Link className="group" to="#"><img alt="" src={group} /></Link>
+                        <Link className="last" to="#"><img alt="" src={last} /></Link>
                     </div>
                     <div className="values">
                         <h1>OUR VALUES</h1>
@@ -51,12 +62,11 @@ function Career(){
                         </ul>
                         </div>
                     </div>
-        
                 </div>
             </div>
-            <div className="career-second">
+            {/* <div className="career-second">
                     
-            </div>
+            </div> */}
         </div>
     );
 }

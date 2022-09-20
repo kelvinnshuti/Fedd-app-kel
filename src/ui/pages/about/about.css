@@ -1,0 +1,75 @@
+.about-top-section {
+    background-image: url(../../../assets/paul-berthelon-bravo-BGXhuJIbx78-unsplash\ 1.png);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    position: relative;
+    top: -50px;
+    padding-top: 40px;
+}
+
+.about-content {
+    padding: 0 55px;
+}
+
+.purpose {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: poppins;
+
+}
+
+.values {
+    width: 100%;
+}
+
+.values h1 {
+    text-align: left;
+}
+
+.values-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.value-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.history {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-middle-content {
+    padding: 0 55px;
+}
+
+.documents {
+    background-color: #f5f5f5;
+    padding: 20px 0 0 50px;
+}
+
+.documents-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-radius: 8px;
+}
+
+.document-card {
+    background: #fff;
+    padding: 50px 20px;
+}
+.purpose-text{
+    font-family: 'Poppins';
+    /* display: flex; */
+
+}
