@@ -1,0 +1,36 @@
+.navbar {
+    width: 90%;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 60px;
+    padding-left: 20px;
+    margin-top: 50px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 50%;
+    text-decoration: none;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    position: absolute;
+    right: 20px;
+}
