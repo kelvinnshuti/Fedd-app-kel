@@ -8,7 +8,7 @@ import twitter from '../../../assets/twitter.png';
 import Card from '../../components/card-section/cards';
 import bgImage from '../../../assets/Rectangle18.png';
 import bgImage1 from '../../../assets/Rectangle 19.png';
-
+import Buttons from '../../components/buttons';
 
 const style={
     backgroundImage:`url(${bgImage})`
@@ -57,7 +57,7 @@ function Home(){
                 
             </div>
             <div className="home-second">
-                
+                <Buttons />
             </div>
             <div className="home-third">
 
